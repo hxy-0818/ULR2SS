@@ -1,9 +1,7 @@
 ## Setup
 ```bash
 git clone https://github.com/Yingziiiiii-icra/ULR2SS.git 
-
 cd ULR2SS
-
 pip install -r requirements.txt
 
 ```
