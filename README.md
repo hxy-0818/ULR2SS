@@ -3,6 +3,7 @@
 git clone https://github.com/Yingziiiiii-icra/ULR2SS.git 
 cd ULR2SS
 conda create -n ULR2SS python=3.8
+conda activte ULR2SS
 pip install -r requirements.txt
 ```
 
@@ -13,8 +14,7 @@ For convenience, our pre-trained DiT models can be downloaded directly here:
 ## Demo Test
 ```bash
 python inference.py \
-  --input  path/to/input.jpg \      # path to image/folder
-  --output path/to/output_folder \  # path to save results
-  --checkpoint joint_checkpoint_best.pth \ # ckpt path
-  --gt_folder path/to/gt_folder  # optional: if gt is provided
+  --input  /home/user/ULR2SS/images/rgb_demo1.png \      # path to image/folder
+  --output /home/user/ULR2SS/images/output \  # path to save results
+  --checkpoint /home/user/ULR2SS/joint_checkpoint_best.pth \ # ckpt path
 ```
