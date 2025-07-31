@@ -1,6 +1,6 @@
 ## Setup
 ```bash
-git clone https://github.com/Yingziiiiii-icra/ULR2SS.git 
+git clone https://github.com/hxy-0818/ULR2SS.git
 cd ULR2SS
 conda create -n ULR2SS python=3.8
 conda activte ULR2SS
